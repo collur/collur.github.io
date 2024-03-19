@@ -39,3 +39,20 @@ p {
 .box {
     border: 1px solid #280042;
 }
+
+td {
+    border: 3px solid black;
+}
+th {
+    border: 3px solid black;
+}
+table {
+  border-collapse: collapse;
+}
+td, th {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+th:hover {
+    color: orange;
+}
